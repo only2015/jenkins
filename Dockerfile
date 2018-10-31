@@ -1,5 +1,5 @@
-FROM OM 192.168.1.30/fn_base_images/centos:latest
-MAINTAINER yehui "i "1750371836@qq.com"
+FROM centos:latest
+MAINTAINER only "server888@yeah.net"
 ENV JAVA_HOME=/usr/java/jdk
 ENV JOB_HOME=/usr/local/fn
 ENV JOB_NAME=jenkins
